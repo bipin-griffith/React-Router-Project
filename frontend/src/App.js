@@ -6,10 +6,12 @@ import EventDetailPage, {
   loader as eventDetailsLoader,
   action as eventDetailsAction,
 } from "./pages/EventDetailPage";
-import NewEventPage, { action as newEventAction } from "./pages/NewEventPage";
+import NewEventPage from "./pages/NewEventPage";
 import EditEventPage from "./pages/EditEventPage";
 import Root from "./pages/Root";
 import EventsRoot from "./pages/EventsRoot";
+import { action as manipulateEventAction } from "./components/EventForm";
+import NewsletterPage, { action as newsLetterAction } from "./pages/Newsletter";
 
 const router = createBrowserRouter([
   {
@@ -37,11 +39,24 @@ const router = createBrowserRouter([
                 element: <EventDetailPage />,
                 action: eventDetailsAction,
               },
-              { path: "edit", element: <EditEventPage /> },
+              {
+                path: "edit",
+                element: <EditEventPage />,
+                action: manipulateEventAction,
+              },
             ],
           },
-          { path: "new", element: <NewEventPage />, action: newEventAction },
+          {
+            path: "new",
+            element: <NewEventPage />,
+            action: manipulateEventAction,
+          },
         ],
+      },
+      {
+        path: "newsletter",
+        element: <NewsletterPage />,
+        action: newsLetterAction,
       },
     ],
   },
