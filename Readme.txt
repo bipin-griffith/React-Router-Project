@@ -10,3 +10,7 @@ The React app dev server is then also started via "npm start" (though inside the
 You MUST have both servers (backend + frontend) up and running for the projects to work.
 
 The dummy backend API does not use any external database - instead the dummy data is saved to an "events.json" file inside the project folder.
+
+This project is mainly consist the main feature provided by the react-router-dom package for routing.
+
+The package include loder, action, defer, form, navigate, navigation, form, json, redirect, fetcher, routes and many more.
