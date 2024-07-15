@@ -1,1 +1,12 @@
-{"events":[{"title":"new event ","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwfxdMiBlV9Orc8sPuytwd_qeUNG5artw3Dw&s","date":"2024-07-10","description":"hello","id":"24ce8a9f-33a9-4c33-b6b7-9d043f07ee55"},{"title":"new event again","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwfxdMiBlV9Orc8sPuytwd_qeUNG5artw3Dw&s","date":"2024-07-26","description":"new event","id":"128c9bb2-2601-44ec-a0fe-914aba85ba04"},{"id":"e1","title":"A dummy event","date":"2023-02-22","image":"https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg","description":"Join this amazing event and connect with fellow developers."}]}
+{
+  "events": [
+    {
+      "title": "A new event",
+      "image": "https://cdn.muenchen-p.de/fl_progressive,q_65/.imaging/stk/responsive/teaser300/dms/va-2016/muenchner-christkindlmarkt/christkindlmarkt-marienplat-logo-hp/document/christkindlmarkt-marienplat-logo-hp.jpg",
+      "date": "2022-10-01",
+      "description": "Some awesome event!",
+      "id": "2a42fcc4-ea21-4bdd-abf6-c40006dc66a9"
+    }
+  ],
+  "users": []
+}
